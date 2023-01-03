@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# 100-singly_linked_list.py
+"""Define classes for a singly-linked list."""
 
 
 class Node:

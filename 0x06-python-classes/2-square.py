@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Square Class
-A Square Class
-"""
+# 2-square.py
+"""Define a class Square."""
+
 
 class Square:
     """Represent a square."""
@@ -15,4 +15,4 @@ class Square:
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
-        self.__size =
+        self.__size = size
